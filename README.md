@@ -27,6 +27,8 @@ Add the following frontmatter to your `slides.md`. Start Slidev then it will pro
 theme: <b>@gravitek/slidev-theme-gravitek</b>
 ---</code></pre>
 
+Theme cannot contain images, so you need to copy logos from the [public folder](./public) to your Slidev project's `public` folder manually.
+
 Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-theme).
 
 ## Layouts
