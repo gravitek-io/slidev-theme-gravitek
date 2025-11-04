@@ -1,8 +1,8 @@
 # slidev-theme-gravitek
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-gravitek?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-gravitek)
+[![NPM version](https://img.shields.io/npm/v/@gravitek/slidev-theme-gravitek?color=3AB9D4&label=)](https://www.npmjs.com/package/@gravitek/slidev-theme-gravitek)
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
+A [Gravitek](https://gravitek.io) theme for [Slidev](https://github.com/slidevjs/slidev).
 
 <!--
   Learn more about how to write a theme:
