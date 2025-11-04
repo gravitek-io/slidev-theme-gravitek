@@ -1,0 +1,6 @@
+{
+  // Disable formatting for markdown files to preserve Slidev frontmatter syntax
+  "[markdown]": {
+    "editor.formatOnSave": false
+  }
+}

@@ -1,0 +1,57 @@
+:root {
+  /* default theme color */
+  /* can be overrided by uses `themeConfig` option */
+  --slidev-theme-primary: #45ba6b;
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  @apply h-full grid;
+
+  h1 {
+    @apply text-6xl leading-20 font-normal;
+  }
+
+  h1 + p {
+    @apply -mt-2 mb-4 text-2xl text-gravitek-primary font-light;
+  }
+
+  p + h2,
+  ul + h2,
+  table + h2 {
+    @apply mt-10;
+  }
+}
+
+.slidev-layout.default,
+.slidev-layout.two-columns {
+  p,
+  ul,
+  ol {
+    @apply text-sm;
+  }
+
+  p {
+    @apply my-1;
+  }
+
+  table {
+    @apply text-xs;
+  }
+
+  h1 {
+    @apply mb-4;
+  }
+
+  h2 {
+    @apply text-lg mt-4 font-semibold text-gravitek-primary;
+  }
+
+  h3 {
+    @apply text-sm mt-4 font-semibold text-gravitek-accent;
+  }
+
+  h4 {
+    @apply text-sm mt-4 text-gravitek-secondary;
+  }
+}

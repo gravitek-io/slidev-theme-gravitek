@@ -1,0 +1,51 @@
+{
+  "name": "@gravitek/slidev-theme-gravitek",
+  "version": "0.1.0",
+  "description": "Gravitek theme for Slidev presentations",
+  "author": "Gravitek <hello@gravitek.io>",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "slidev-theme",
+    "slidev",
+    "gravitek"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gravitek-io/slidev-theme-gravitek.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "slidev build example.md",
+    "dev": "slidev example.md --open",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "dependencies": {
+    "@slidev/types": "^52.6.0"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.6.0"
+  },
+  "//": "Learn more: https://sli.dev/guide/write-theme.html",
+  "slidev": {
+    "colorSchema": "light",
+    "defaults": {
+      "fonts": {
+        "sans": "Nunito Sans",
+        "mono": "Fira Code"
+      },
+      "transition": "fade-out",
+      "author": "hello@gravitek.io",
+      "title": "Training Presentation",
+      "titleTemplate": "%s - Gravitek",
+      "favicon": "/favicon-32x32.png",
+      "exportFilename": "gravitek-presentation"
+    }
+  }
+}
