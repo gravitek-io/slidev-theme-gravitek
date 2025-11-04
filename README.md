@@ -24,7 +24,7 @@ A [Gravitek](https://gravitek.io) theme for [Slidev](https://github.com/slidevjs
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
 <pre><code>---
-theme: <b>gravitek</b>
+theme: <b>@gravitek/slidev-theme-gravitek</b>
 ---</code></pre>
 
 Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-theme).
@@ -33,13 +33,17 @@ Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-them
 
 This theme provides the following layouts:
 
-> TODO:
+- **cover**: A cover slide layout for title slides.
+- **default**: The default slide layout.
+- **two-cols**: A two-column layout with customizable gap.
+- **center**: A centered layout for titles or important messages.
+
 
 ## Components
 
 This theme provides the following components:
 
-> TODO:
+- **InsightBox**: A box to highlight insights or important information.
 
 ## Contributing
 
