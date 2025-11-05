@@ -67,6 +67,20 @@ function updateUser(id: number, update: Partial<User>) {
 ```
 
 ---
+layout: section
+---
+
+# Simple Section
+
+---
+layout: section
+---
+
+# Simple Section 2
+
+With an complementary paragraph to explain more in detail what you want to say.
+
+---
 layout: default
 ---
 
