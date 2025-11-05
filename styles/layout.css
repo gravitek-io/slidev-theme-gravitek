@@ -5,6 +5,7 @@
 }
 
 .slidev-layout.cover,
+.slidev-layout.cover-and-image,
 .slidev-layout.intro {
   @apply h-full grid;
 
@@ -20,6 +21,21 @@
   ul + h2,
   table + h2 {
     @apply mt-10;
+  }
+
+  .slidev-icon-btn {
+    font-size: 1.5rem !important; /* Larger icon size */
+    width: 3rem !important;
+    height: 3rem !important;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+  }
+
+  .slidev-icon-btn:hover {
+    color: #45ba6b; /* Gravitek accent green on hover */
+    background-color: rgba(69, 186, 107, 0.1); /* Light green background */
+    border-color: #45ba6b;
+    transform: scale(1.1);
   }
 }
 

@@ -40,6 +40,7 @@ This theme provides the following layouts:
 - **two-cols**: A two-column layout with customizable gap.
 - **center**: A centered layout for titles or important messages.
 - **section**: A layout for section slides with centered content.
+- **section-and-image**: A layout for section slides with the image on the left and title on the right.
 - **two-cols-top**: A two-column layout with content aligned to the top.
 
 ## Components

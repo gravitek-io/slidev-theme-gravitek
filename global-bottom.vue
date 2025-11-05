@@ -1,7 +1,20 @@
+<script setup lang="ts">
+import { computed } from "vue";
+import { useSlideContext } from "@slidev/client";
+
+const { $slidev } = useSlideContext();
+
+// Hide footer on cover layouts
+const showFooter = computed(() => {
+  const layout = $slidev.nav.currentLayout;
+  return layout !== "cover" && layout !== "cover-and-image";
+});
+</script>
+
 <template>
-  <!-- Footer appears on all slides except the first one -->
+  <!-- Footer appears on all slides except cover layouts -->
   <footer
-    v-if="$slidev.nav.currentPage > 1"
+    v-if="showFooter"
     class="absolute bottom-0 left-0 right-0 px-4 py-2 flex justify-between items-center text-sm opacity-50"
   >
     <!-- Left: Gravitek logo -->

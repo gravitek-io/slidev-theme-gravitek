@@ -1,10 +1,23 @@
 ---
 theme: ./
+layout: cover
+gitRepo: https://github.com/gravitek-io
 ---
 
 # Slidev Theme Gravitek
 
 Theme for training presentations by Gravitek.
+
+---
+layout: cover-and-image
+image: /crossplane.png
+imageWidth: 240px
+gitRepo: https://github.com/gravitek-io
+---
+
+# Crossplane v2 Essentials
+
+Build Composable Infrastructure the Kubernetes Way
 
 ---
 
@@ -45,6 +58,7 @@ Hover on the bottom-left corner to see the navigation's controls panel
 ---
 layout: image-right 
 image: https://cover.sli.dev
+imageWidth: 200px
 ---
 
 # Code
