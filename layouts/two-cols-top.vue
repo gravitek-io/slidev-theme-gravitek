@@ -1,7 +1,7 @@
 <template>
   <div class="slidev-layout two-cols-top h-full flex flex-col">
     <!-- Title section (full width) -->
-    <div class="title-section mb-4">
+    <div class="title-section">
       <slot />
     </div>
 
