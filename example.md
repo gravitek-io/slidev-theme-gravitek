@@ -168,6 +168,37 @@ spec:
 | **Best Fit For**            | Developer-centric IaC pipelines                | **Platform-centric GitOps & Control Planes**         |
 
 ---
+layout: two-cols-top
+layoutClass: gap-8
+---
+
+# 🗓️ Agenda example
+
+::left::
+
+## Day 1
+### Foundations & Core Concepts
+
+- **09:00** Introduction & Objectives
+- **09:30** Architecture and Key Concepts
+- **10:45** Lab 1: Installation & Discovery
+- **13:30** Lab 2: Managed Resources
+- **15:15** Compositions & XRD
+- **17:00** Q&A / Day 1 Recap
+
+::right::
+
+## Day 2
+### Extending & Automating
+
+- **09:00** Morning Recap & Q/A
+- **09:30** Composition Functions & Pipelines
+- **11:15** Lab 3: Multi-Resource Composition
+- **13:30** GitOps Integration (ArgoCD/Flux)
+- **15:15** Observability & Troubleshooting
+- **16:30** Closing & Perspectives
+
+---
 layout: center 
 class: "text-center"
 ---

@@ -24,7 +24,8 @@
 }
 
 .slidev-layout.default,
-.slidev-layout.two-columns {
+.slidev-layout.two-columns,
+.slidev-layout.two-cols-top {
   p,
   ul,
   ol {
@@ -53,6 +54,10 @@
 
   h2 {
     @apply text-lg mt-4 font-semibold text-gravitek-primary;
+  }
+
+  h2 + h3 {
+    @apply mt-1 mb-4;
   }
 
   h3 {
