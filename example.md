@@ -150,6 +150,24 @@ spec:
 ```
 
 ---
+
+# Comparing Pulumi and Crossplane v2
+<br>
+
+| Dimension                   | **Pulumi**                                     | **Crossplane v2**                                    |
+| --------------------------- | ---------------------------------------------- | ---------------------------------------------------- |
+| **Paradigm**                | Code-based IaC (imperative)                    | Declarative IaC (Kubernetes-native)                  |
+| **Execution Model**         | Executed via CLI/CI pipelines                  | **Continuous reconciliation loop inside Kubernetes** |
+| **Target Users**            | Developers & App Teams                         | Platform & Ops Teams                                 |
+| **Language Model**          | General-purpose languages (TS, Go, Python, C#) | Kubernetes CRDs & YAML APIs                          |
+| **Extensibility**           | SDKs & reusable components                     | XRDs, Compositions & Functions                       |
+| **State Management**        | Handled externally (state files, backend)      | Managed by Kubernetes controllers                    |
+| **Drift Correction**        | On-demand (reapply / refresh)                  | **Continuous reconciliation (auto-heal)**            |
+| **Multi-cloud Strategy**    | Multi-SDK abstraction                          | Multi-cloud via Providers (AWS, GCP, Azure, etc.)    |
+| **Self-Service Enablement** | Needs additional API/UI layer                  | **Native — every XRD becomes a self-service API**    |
+| **Best Fit For**            | Developer-centric IaC pipelines                | **Platform-centric GitOps & Control Planes**         |
+
+---
 layout: center 
 class: "text-center"
 ---

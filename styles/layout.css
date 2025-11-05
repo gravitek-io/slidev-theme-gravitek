@@ -39,6 +39,14 @@
     @apply text-xs;
   }
 
+  td {
+    @apply px-2 py-2;
+  }
+
+  th {
+    @apply px-2 py-2 text-gravitek-accent font-semibold;
+  }
+
   h1 {
     @apply mb-4;
   }
