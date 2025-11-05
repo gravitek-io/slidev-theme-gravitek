@@ -39,7 +39,7 @@ This theme provides the following layouts:
 - **default**: The default slide layout.
 - **two-cols**: A two-column layout with customizable gap.
 - **center**: A centered layout for titles or important messages.
-
+- **section**: A layout for section slides with centered content.
 
 ## Components
 
