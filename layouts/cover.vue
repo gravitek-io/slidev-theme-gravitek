@@ -12,7 +12,7 @@ const props = defineProps<{
     </div>
     <!-- Gravitek logo with absolute positioning -->
     <img
-      src="/gravitek-full.svg"
+      src="https://cdn.jsdelivr.net/gh/gravitek-io/slidev-theme-gravitek@main/public/gravitek-full.svg"
       alt="Gravitek"
       class="h-10 abs-tl mt-6 ms-13"
     />

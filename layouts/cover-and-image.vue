@@ -10,7 +10,7 @@ const props = withDefaults(
   }>(),
   {
     imageWidth: "400px",
-  }
+  },
 );
 
 const gridTemplateColumns = computed(() => `${props.imageWidth} 1fr`);
@@ -40,7 +40,7 @@ const gridTemplateColumns = computed(() => `${props.imageWidth} 1fr`);
 
     <!-- Gravitek logo with absolute positioning -->
     <img
-      src="/gravitek-full.svg"
+      src="https://cdn.jsdelivr.net/gh/gravitek-io/slidev-theme-gravitek@main/public/gravitek-full.svg"
       alt="Gravitek"
       class="h-10 abs-tl mt-6 ms-13"
     />

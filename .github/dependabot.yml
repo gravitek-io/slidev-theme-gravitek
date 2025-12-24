@@ -1,0 +1,42 @@
+# Dependabot configuration for automated dependency updates
+# Documentation: https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  # Monitor npm dependencies
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "Europe/Paris"
+    # Group Slidev dependencies together
+    groups:
+      slidev:
+        patterns:
+          - "@slidev/*"
+        update-types:
+          - "minor"
+          - "patch"
+      development:
+        dependency-type: "development"
+        update-types:
+          - "minor"
+          - "patch"
+    # Limit the number of open PRs
+    open-pull-requests-limit: 5
+    # Add conventional commit prefix
+    commit-message:
+      prefix: "chore"
+      prefix-development: "chore"
+      include: "scope"
+    # Add labels to PRs
+    labels:
+      - "dependencies"
+      - "automated"
+    # Review settings
+    reviewers:
+      - "gravitek-io"
+    # Allow automatic rebasing
+    rebase-strategy: "auto"

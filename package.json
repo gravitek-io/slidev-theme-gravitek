@@ -44,7 +44,7 @@
       "author": "hello@gravitek.io",
       "title": "Training Presentation",
       "titleTemplate": "%s - Gravitek",
-      "favicon": "/favicon-32x32.png",
+      "favicon": "https://cdn.jsdelivr.net/gh/gravitek-io/slidev-theme-gravitek@main/public/favicon-32x32.png",
       "exportFilename": "gravitek-presentation"
     }
   }

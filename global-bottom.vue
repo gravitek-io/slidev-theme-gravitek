@@ -19,7 +19,11 @@ const showFooter = computed(() => {
   >
     <!-- Left: Gravitek logo -->
     <div class="flex items-center">
-      <img src="/gravitek-full.svg" alt="Gravitek" class="h-5" />
+      <img
+        src="https://cdn.jsdelivr.net/gh/gravitek-io/slidev-theme-gravitek@main/public/gravitek-full.svg"
+        alt="Gravitek"
+        class="h-5"
+      />
     </div>
 
     <!-- Right: Training name -->
