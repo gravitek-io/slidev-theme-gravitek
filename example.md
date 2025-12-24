@@ -10,7 +10,6 @@ Theme for training presentations by Gravitek.
 
 ---
 layout: cover-and-image
-image: /crossplane.png
 imageWidth: 240px
 gitRepo: https://github.com/gravitek-io
 ---
@@ -56,7 +55,7 @@ Hover on the bottom-left corner to see the navigation's controls panel
 | <kbd>down</kbd>                                      | next slide                  |
 
 ---
-layout: image-right 
+layout: image-right
 image: https://cover.sli.dev
 imageWidth: 200px
 ---
@@ -166,6 +165,7 @@ spec:
 ---
 
 # Comparing Pulumi and Crossplane v2
+
 <br>
 
 | Dimension                   | **Pulumi**                                     | **Crossplane v2**                                    |
@@ -191,6 +191,7 @@ layoutClass: gap-8
 ::left::
 
 ## Day 1
+
 ### Foundations & Core Concepts
 
 - **09:00** Introduction & Objectives
@@ -203,6 +204,7 @@ layoutClass: gap-8
 ::right::
 
 ## Day 2
+
 ### Extending & Automating
 
 - **09:00** Morning Recap & Q/A
@@ -213,7 +215,7 @@ layoutClass: gap-8
 - **16:30** Closing & Perspectives
 
 ---
-layout: center 
+layout: center
 class: "text-center"
 ---
 

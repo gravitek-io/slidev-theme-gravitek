@@ -13,6 +13,13 @@ const props = withDefaults(
   },
 );
 
+// Computed property to handle default image with fallback
+const displayImage = computed(
+  () =>
+    props.image ||
+    "https://cdn.jsdelivr.net/gh/gravitek-io/slidev-theme-gravitek@main/public/crossplane.png",
+);
+
 const gridTemplateColumns = computed(() => `${props.imageWidth} 1fr`);
 </script>
 
@@ -24,8 +31,7 @@ const gridTemplateColumns = computed(() => `${props.imageWidth} 1fr`);
     <!-- Left column: Image with fixed width -->
     <div class="col-left flex items-center justify-center overflow-hidden">
       <img
-        v-if="props.image"
-        :src="props.image"
+        :src="displayImage"
         alt="Cover image"
         class="w-full h-full object-contain"
       />
